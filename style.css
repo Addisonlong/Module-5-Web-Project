@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 3px 3px 3px #000033;
+  background-color: #fff;
+}
+
+#indexhero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(index.jpg);
+  height: 200px;
+  width: 375px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#foodhero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(dogeating.jpg);
+  height: 200px;
+  width: 375px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#shophero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(chocolatepuppy.jpg);
+  height: 200px;
+  width: 375px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #f0ead6;
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #b2b2b2, #E1D9D1, #b2b2b2);
+}
+
+header {
+  background-color: #ffd1dc;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  line-height: 200%;
+  padding-left: 1em;
+  height: 100px;
+  margin-bottom: 0;
+}
+
+nav {
+  font-weight: bold;
+  padding: .5em .5em .5em 2em;
+  float: left;
+  width: 100px;
+  padding: 0em;
+}
+
+h2 {
+  color: #ffd1dc;
+  font-family: Georgia, serif;
+  background-image: url(bannerimage.jpg);
+}
+
+h3 {
+  color: #000033;
+  font-weight: bold;
+}
+
+dt {
+  color: #000033;
+  font-weight: bold;
+}
+
+main {
+  background-color: #fff;
+  margin-left: 170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:link {
+  color: #fff;
+}
+
+nav a:visited {
+  color: #c2e0f0;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.image {
+  position: absolute;
+  right: 300px;
+  top: 500px;
+}
+
+#navsection {
+  background-color: #f2f2f2;
+}
+
+.foodimage {
+  position: absolute;
+  right: 400px;
+  top: 600px;
+}
+
+.candy {
+  position: absolute;
+  right: 300px;
+  top: 500px;
+}
+
+footer {
+  font-size: .70em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  background-color: #FFFFFF;
+  margin-left: 170px;
+}
+
+#logo {
+  float: right;
+  width: 200px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 20px;
+  background-color: #fff;
+  background-image: url(favicon.ico);
+  background-repeat: no-repeat;
+}
+
+@media only all and (max-width:768px) {
+  h1 {
+    height: 100%;
+    font-size: 1.5em;
+    padding-left: 0.3em;
+  }
+
+  @media only screen and(max-width: 1024px) {
+    body {
+      margin: 0px;
+      padding: 0px;
+      box-shadow: none;
+    }
